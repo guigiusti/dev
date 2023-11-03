@@ -1,2 +1,2 @@
 ## Este repositório serve para hospedar projetos públicos, com acesso disponível em meu [site](https://guilhermegiusti.com/dev/).
-### O primeiro projeto disponibilizado [paisesCapitais](/jogos/paisesCapitais/), se trata de uma página estática que apresenta uma bandeira de um país - selecionada aleatoriamente -, para o usúario tentar advinhar seu nome e de sua capital (caso deseje).
+### O primeiro projeto disponibilizado [paisesCapitais](/jogos/paisesCapitais/), é uma página dinâmica que apresenta uma bandeira de um país - selecionada aleatoriamente -, para o usúario tentar advinhar seu nome e de sua capital (caso deseje). Sendo esses dados revelados ao pressionar do botão. Feito utilizando HTML, CSS e Javascript. Sendo o Python apenas utilizado para formatar os JSONs.
