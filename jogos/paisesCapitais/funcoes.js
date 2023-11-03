@@ -17,7 +17,7 @@ function showhide() {
 //Procura nos arquivos JSON o nome do país e sua capital, em português
 function dados_do_pais(country_code) {
     const pais = country_code.toUpperCase();
-    fetch('/guigiusti.github.io/dev/jogos/paisesCapitais/bandeirasPaises/capitaisPT.json')
+    fetch('/guigiusti.github.io/dev/jogos/paisesCapitais/bandeirasPaises/capitais.json')
     .then((response) => response.json())
     .then((json) => {for (key in json) {if (json[key].alpha2Code === pais) {criar_texto("Capital: "+json[key].capital,"capital");
     return;}}})
