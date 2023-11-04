@@ -2,10 +2,14 @@ var shownorhide = 0;
 
 // Esta primeira função faz carregar a imagem
 function selecionar_imagem(country_code) {
+    fetch('/guigiusti.github.io/dev/jogos/estadosCapitais/bandeirasEstados/estadosBR.json')
+    .then((response) => response.json())
+    .then((json) => {for (key in json) {if (json[key].ordem === country_code) {
     const img = document.querySelector("img"); 
     img.src = '/guigiusti.github.io/dev/jogos/estadosCapitais/bandeirasEstados/svg/' + country_code + '.svg';
     dados_do_pais(country_code); // Após carregar a imagem, chama a função para carregar os dados do país
-    return;
+    return;}}})
+    
 }
 
 // Faz esconder o botão e faz mostrar os dados carregados, quando se aperta o botão HTML
