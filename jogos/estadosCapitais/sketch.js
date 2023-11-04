@@ -14,10 +14,8 @@ if (!urlParams.get('sigla2')) {
 fetch('/guigiusti.github.io/dev/jogos/estadosCapitais/bandeirasEstados/estadosBR.json')
     .then((response) => response.json())
     .then((json) => {const keys = Object.keys(json);
-        console.log(keys)
         const len = keys.length;
         const rnd = Math.floor(Math.random() * len);
-        console.log(rnd)
         selecionar_imagem(keys[rnd].toUpperCase());}) 
         // Na última linha é enviado o comando com o código do país, dando início ao jogo.
 }
