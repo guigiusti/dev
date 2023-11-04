@@ -71,125 +71,118 @@
     },
     {
         "ordem": 11,
-        "estado": "Alagoas",
-        "capital": "Maceió",
-        "sigla2": "AL",
-        "codigo": "27"
-    },
-    {
-        "ordem": 12,
         "estado": "Mato Grosso",
         "capital": "Cuiabá",
         "sigla2": "MT",
         "codigo": "51"
     },
     {
-        "ordem": 13,
+        "ordem": 12,
         "estado": "Mato Grosso do Sul",
         "capital": "Campo Grande",
         "sigla2": "MS",
         "codigo": "50"
     },
     {
-        "ordem": 14,
+        "ordem": 13,
         "estado": "Minas Gerais",
         "capital": "Belo Horizonte",
         "sigla2": "MG",
         "codigo": "31"
     },
     {
-        "ordem": 15,
+        "ordem": 14,
         "estado": "Pará",
         "capital": "Belém",
         "sigla2": "PA",
         "codigo": "15"
     },
     {
-        "ordem": 16,
+        "ordem": 15,
         "estado": "Paraíba",
         "capital": "João Pessoa",
         "sigla2": "PB",
         "codigo": "25"
     },
     {
-        "ordem": 17,
+        "ordem": 16,
         "estado": "Paraná",
         "capital": "Curitiba",
         "sigla2": "PR",
         "codigo": "41"
     },
     {
-        "ordem": 18,
+        "ordem": 17,
         "estado": "Pernambuco",
         "capital": "Recife",
         "sigla2": "PE",
         "codigo": "26"
     },
     {
-        "ordem": 19,
+        "ordem": 18,
         "estado": "Piauí",
         "capital": "Terezina",
         "sigla2": "PI",
         "codigo": "22"
     },
     {
-        "ordem": 20,
+        "ordem": 19,
         "estado": "Rio de Janeiro",
         "capital": "Rio de Janeiro",
         "sigla2": "RJ",
         "codigo": "33"
     },
     {
-        "ordem": 21,
+        "ordem": 20,
         "estado": "Rio Grande do Norte",
         "capital": "Natal",
         "sigla2": "RN",
         "codigo": "24"
     },
     {
-        "ordem": 22,
+        "ordem": 21,
         "estado": "Rio Grande do Sul",
         "capital": "Porto Alegre",
         "sigla2": "RS",
         "codigo": "43"
     },
     {
-        "ordem": 23,
+        "ordem": 22,
         "estado": "Rondônia",
         "capital": "Porto Velho",
         "sigla2": "RO",
         "codigo": "11"
     },
     {
-        "ordem": 24,
+        "ordem": 23,
         "estado": "Roraima",
         "capital": "Boa Vista",
         "sigla2": "RR",
         "codigo": "14"
     },
     {
-        "ordem": 25,
+        "ordem": 24,
         "estado": "Santa Catarina",
         "capital": "Florianópolis",
         "sigla2": "SC",
         "codigo": "42"
     },
     {
-        "ordem": 26,
+        "ordem": 25,
         "estado": "São Paulo",
         "capital": "São Paulo",
         "sigla2": "SP",
         "codigo": "35"
     },
     {
-        "ordem": 27,
+        "ordem": 26,
         "estado": "Sergipe",
         "capital": "Aracajú",
         "sigla2": "SE",
         "codigo": "28"
     },
     {
-        "ordem": 28,
+        "ordem": 27,
         "estado": "Tocantins",
         "capital": "Palmas",
         "sigla2": "TO",
