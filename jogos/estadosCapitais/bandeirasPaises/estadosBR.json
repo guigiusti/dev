@@ -1,0 +1,200 @@
+[
+    {
+        "ordem": 1,
+        "estado": "Acre",
+        "capital": "Rio Branco",
+        "sigla2": "AC",
+        "codigo": "12"
+    },
+    {
+        "ordem": 2,
+        "estado": "Alagoas",
+        "capital": "Maceió",
+        "sigla2": "AL",
+        "codigo": "27"
+    },
+    {
+        "ordem": 3,
+        "estado": "Amapá",
+        "capital": "Macapá",
+        "sigla2": "AP",
+        "codigo": "16"
+    },
+    {
+        "ordem": 4,
+        "estado": "Amazonas",
+        "capital": "Manaus",
+        "sigla2": "AM",
+        "codigo": "13"
+    },
+    {
+        "ordem": 5,
+        "estado": "Bahia",
+        "capital": "Salvador",
+        "sigla2": "BA",
+        "codigo": "29"
+    },
+    {
+        "ordem": 6,
+        "estado": "Ceará",
+        "capital": "Fortaleza",
+        "sigla2": "CE",
+        "codigo": "23"
+    },
+    {
+        "ordem": 7,
+        "estado": "Distrito Federal",
+        "capital": "Brasília",
+        "sigla2": "DF",
+        "codigo": "53"
+    },
+    {
+        "ordem": 8,
+        "estado": "Espírito Santo",
+        "capital": "Vitória",
+        "sigla2": "ES",
+        "codigo": "32"
+    },
+    {
+        "ordem": 9,
+        "estado": "Goiás",
+        "capital": "Goiânia",
+        "sigla2": "GO",
+        "codigo": "52"
+    },
+    {
+        "ordem": 10,
+        "estado": "Maranhão",
+        "capital": "São Luiz",
+        "sigla2": "MA",
+        "codigo": "21"
+    },
+    {
+        "ordem": 11,
+        "estado": "Alagoas",
+        "capital": "Maceió",
+        "sigla2": "AL",
+        "codigo": "27"
+    },
+    {
+        "ordem": 12,
+        "estado": "Mato Grosso",
+        "capital": "Cuiabá",
+        "sigla2": "MT",
+        "codigo": "51"
+    },
+    {
+        "ordem": 13,
+        "estado": "Mato Grosso do Sul",
+        "capital": "Campo Grande",
+        "sigla2": "MS",
+        "codigo": "50"
+    },
+    {
+        "ordem": 14,
+        "estado": "Minas Gerais",
+        "capital": "Belo Horizonte",
+        "sigla2": "MG",
+        "codigo": "31"
+    },
+    {
+        "ordem": 15,
+        "estado": "Pará",
+        "capital": "Belém",
+        "sigla2": "PA",
+        "codigo": "15"
+    },
+    {
+        "ordem": 16,
+        "estado": "Paraíba",
+        "capital": "João Pessoa",
+        "sigla2": "PB",
+        "codigo": "25"
+    },
+    {
+        "ordem": 17,
+        "estado": "Paraná",
+        "capital": "Curitiba",
+        "sigla2": "PR",
+        "codigo": "41"
+    },
+    {
+        "ordem": 18,
+        "estado": "Pernambuco",
+        "capital": "Recife",
+        "sigla2": "PE",
+        "codigo": "26"
+    },
+    {
+        "ordem": 19,
+        "estado": "Piauí",
+        "capital": "Terezina",
+        "sigla2": "PI",
+        "codigo": "22"
+    },
+    {
+        "ordem": 20,
+        "estado": "Rio de Janeiro",
+        "capital": "Rio de Janeiro",
+        "sigla2": "RJ",
+        "codigo": "33"
+    },
+    {
+        "ordem": 21,
+        "estado": "Rio Grande do Norte",
+        "capital": "Natal",
+        "sigla2": "RN",
+        "codigo": "24"
+    },
+    {
+        "ordem": 22,
+        "estado": "Rio Grande do Sul",
+        "capital": "Porto Alegre",
+        "sigla2": "RS",
+        "codigo": "43"
+    },
+    {
+        "ordem": 23,
+        "estado": "Rondônia",
+        "capital": "Porto Velho",
+        "sigla2": "RO",
+        "codigo": "11"
+    },
+    {
+        "ordem": 24,
+        "estado": "Roraima",
+        "capital": "Boa Vista",
+        "sigla2": "RR",
+        "codigo": "14"
+    },
+    {
+        "ordem": 25,
+        "estado": "Santa Catarina",
+        "capital": "Florianópolis",
+        "sigla2": "SC",
+        "codigo": "42"
+    },
+    {
+        "ordem": 26,
+        "estado": "São Paulo",
+        "capital": "São Paulo",
+        "sigla2": "SP",
+        "codigo": "35"
+    },
+    {
+        "ordem": 27,
+        "estado": "Sergipe",
+        "capital": "Aracajú",
+        "sigla2": "SE",
+        "codigo": "28"
+    },
+    {
+        "ordem": 28,
+        "estado": "Tocantins",
+        "capital": "Palmas",
+        "sigla2": "TO",
+        "codigo": "17"
+    }
+]
+
+

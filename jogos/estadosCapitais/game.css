@@ -1,0 +1,95 @@
+@media (min-width: 900px) {
+    body {
+    background-color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;}
+    img {
+        border-color: white;
+        border: 2px solid white;
+        max-height: 50%;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h2 {
+        color: white;
+        font-size: 210%;
+    }
+    .button_showhide {
+        background-color: white;
+        color: black;
+        font-size: 250%;
+    }
+    #pais {
+        order: 1;
+    }
+    #capital {
+        order: 2;
+    }
+}
+@media (max-width: 899px) {
+    body {
+        background-color: black;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1%;
+        margin-left: 1%;
+        margin-right: 1%;}
+    img {
+        border-color: white;
+        max-width: 250%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid white;
+    }
+    h2 {
+        color: white;
+        font-size: 140%;
+    }
+    .button_showhide {
+        background-color: white;
+        color: black;
+        font-size: 140%;
+    }
+    #pais {
+        order: 1;
+    }
+    #capital {
+        order: 2;
+    }
+}
+@media only screen and (hover: none) and (pointer: coarse) {
+    body {
+        background-color: black;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1%;
+        margin-left: 1%;
+        margin-right: 1%;}
+    img {
+        border-color: white;
+        max-width: 250%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid white;
+    }
+    h2 {
+        color: white;
+        font-size: 350%;
+    }
+    .button_showhide {
+        background-color: white;
+        color: black;
+        font-size: 300%;
+    }
+    #pais {
+        order: 1;
+    }
+    #capital {
+        order: 2;
+    }
+}
+
