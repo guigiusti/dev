@@ -38,6 +38,6 @@ function criar_texto (texto,id_texto) {
     texto_na_tela.appendChild(texto_na_tela_space)
     document.getElementById('txt').hidden = true
     document.getElementById("txt").appendChild(texto_na_tela);
-    // if (urlParams.get('alpha2')) {showhide()} // Código de teste, faz automaticamente aparecer o texto (cont...)
+    if (urlParams.get('alpha2')) {showhide()} // Código de teste, faz automaticamente aparecer o texto (cont...)
     // quando iniciado com o parâmetro "/?alpha2="
 }
