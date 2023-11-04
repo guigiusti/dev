@@ -4,7 +4,7 @@ var shownorhide = 0;
 function selecionar_imagem(country_code) {
     fetch('/guigiusti.github.io/dev/jogos/estadosCapitais/bandeirasEstados/estadosBR.json')
     .then((response) => response.json())
-    .then((json) => {for (key in json) {console.log(key);if (json[key].ordem === country_code) {console.log("foi");
+    .then((json) => {for (key in json) {console.log(json[key].ordem);if (json[key].ordem === country_code) {console.log("foi");
     const img = document.querySelector("img"); 
     img.src = '/guigiusti.github.io/dev/jogos/estadosCapitais/bandeirasEstados/svg/' + json[key].sigla2 + '.svg';
     dados_do_pais(country_code); // Após carregar a imagem, chama a função para carregar os dados do país
