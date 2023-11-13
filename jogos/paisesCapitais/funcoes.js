@@ -17,13 +17,13 @@ function showhide() {
 //Procura nos arquivos JSON o nome do país e sua capital, em português
 function dados_do_pais(country_code) {
     const pais = country_code.toUpperCase();
-    fetch('/guigiusti.github.io/dev/jogos/paisesCapitais/bandeirasPaises/capitais.json')
+    fetch('/guigiusti.github.io/dev/jogos/paisesCapitais/bandeirasPaises/paisesCapitais.json')
     .then((response) => response.json())
-    .then((json) => {for (key in json) {if (json[key].alpha2Code === pais) {criar_texto("Capital: "+json[key].capital,"capital");
+    .then((json) => {for (key in json) {if (json[key].alpha2code === pais) {criar_texto("Capital: "+json[key].Capital,"capital");
     return;}}})
-    fetch('/guigiusti.github.io/dev/jogos/paisesCapitais/bandeirasPaises/paisesPT.json')
+    fetch('/guigiusti.github.io/dev/jogos/paisesCapitais/bandeirasPaises/paisesCapitais.json')
     .then((response) => response.json())
-    .then((json) => {for (key in json) {if (json[key].sigla2 === pais) {criar_texto("País: "+json[key].nome,"pais");
+    .then((json) => {for (key in json) {if (json[key].alpha2code === pais) {criar_texto("País: "+json[key].Pais,"pais");
     return;}}}) // A função criar_texto por fim é chamada para disponibilizar os dados encontrados
 }
 
