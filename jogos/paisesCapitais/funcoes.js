@@ -23,7 +23,7 @@ function dados_do_pais(country_code) {
     return;}}})
     fetch('/guigiusti.github.io/dev/jogos/paisesCapitais/bandeirasPaises/paisesCapitais.json')
     .then((response) => response.json())
-    .then((json) => {for (key in json) {if (json[key].alpha2code === pais) {criar_texto("País: "+json[key].Pais,"pais");
+    .then((json) => {for (key in json) {if (json[key].alpha2code === pais) {console.log('foi'); console.log(json[key].Pais); criar_texto("País: "+json[key].Pais,"pais");
     return;}}}) // A função criar_texto por fim é chamada para disponibilizar os dados encontrados
 }
 
