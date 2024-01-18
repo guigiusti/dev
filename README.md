@@ -4,5 +4,5 @@ O primeiro projeto disponibilizado **paisesCapitais**, é uma página dinâmica 
 
 O segundo projeto a ser disponibilizado, é o **estadosCapitais**, que segue a mesma linha do primeiro jogo, porém com estados brasileiros e suas capitais. Feito utilizando dados do IBGE e bandeiras em SVG disponíveis no [Wikimedia](https://commons.wikimedia.org/wiki/Flags_of_Brazil). Acesse o jogo [por aqui](https://guilhermegiusti.com/dev/jogos/estadosCapitais).
 
-O terceiro projeto disponibilizado, é o **hinosMunicipais**. Clique no botão e será selecionado um hino municipal aleatoriamente! Sua base de links foi construída a partir de um webscrapping em Python, a partir do nome de todos munícipios brasileiros. Este projeto ainda está em andamento, visto que sua base ainda se encontra incompleta. Porém pode ser acessado [por aqui](https://guilhermegiusti.com/dev/jogos/hinosMunicipais)
+O terceiro projeto disponibilizado, é o **hinosMunicipais**. Clique no botão e será selecionado um hino municipal aleatoriamente! Sua base de links foi construída via webscrapping em Python, a partir do nome de todos munícipios brasileiros. Este projeto ainda está em andamento, visto que sua base ainda se encontra incompleta. Porém pode ser acessado [por aqui](https://guilhermegiusti.com/dev/jogos/hinosMunicipais)
 
