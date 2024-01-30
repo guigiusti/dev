@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a {
+    color: white;
+    font-size: 3em;
+}
+#title-div {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#clock-div {
+    position: relative;
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    align-items: center;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    width: 10em;
+    height: 10em;
+    cursor: pointer;
+}
+#controls-div {
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    align-items: center;
+}
+#rounds-div {
+    margin-top: 5%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+}
+#clock {
+    text-align: center;
+    align-items: center;
+}
+#timeBtns {
+    position: absolute;
+    margin-top: 55%;
+}
+#increase {
+    background-color: transparent;
+    color: white;
+    font-size: 1.5em;
+}
+#decrease {
+    background-color: transparent;
+    color: white;
+    font-size: 1.5em;
+}
+#state {
+    font-size: 1.5em;
+    justify-content:center;
+    text-align:center;
+    align-items: center;
+    background-color: transparent;
+}
+#restart {
+    margin-top: 2%;
+    font-size: 1.5em;
+    justify-content:center;
+    text-align:center;
+    align-items: center;
+    background-color: transparent;
+}
+#increaseMaxRound {
+    font-size: 0.9em;
+    background-color: transparent;
+}
+#decreaseMaxRound {
+    font-size: 0.9em;
+    background-color: transparent;
+}
