@@ -3,7 +3,7 @@ var shownorhide = 0;
 // Esta primeira função faz carregar a imagem
 function selecionar_imagem(country_code) {
     const img = document.querySelector("img"); 
-    img.src = '/guigiusti.github.io/dev/jogos/estadosCapitais/bandeirasEstados/svg/' + country_code + '.svg';
+    img.src = '/guigiusti.github.io/dev/estadosCapitais/bandeirasEstados/svg/' + country_code + '.svg';
     dados_do_pais(country_code); // Após carregar a imagem, chama a função para carregar os dados do país
     return;
 }
@@ -17,11 +17,11 @@ function showhide() {
 //Procura nos arquivos JSON o nome do país e sua capital, em português
 function dados_do_pais(country_code) {
     const pais = country_code.toUpperCase();
-    fetch('/guigiusti.github.io/dev/jogos/estadosCapitais/bandeirasEstados/estadosBR.json')
+    fetch('/guigiusti.github.io/dev/estadosCapitais/bandeirasEstados/estadosBR.json')
     .then((response) => response.json())
     .then((json) => {for (key in json) {if (json[key].sigla2 === pais) {criar_texto("Capital: "+json[key].capital,"capital");
     return;}}})
-    fetch('/guigiusti.github.io/dev/jogos/estadosCapitais/bandeirasEstados/estadosBR.json')
+    fetch('/guigiusti.github.io/dev/estadosCapitais/bandeirasEstados/estadosBR.json')
     .then((response) => response.json())
     .then((json) => {for (key in json) {if (json[key].sigla2 === pais) {criar_texto("Estado: "+json[key].estado,"estado");
     return;}}}) // A função criar_texto por fim é chamada para disponibilizar os dados encontrados
