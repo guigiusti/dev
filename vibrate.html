@@ -1,6 +1,11 @@
 <body>
-  OI
+  <h1 id="oi">Oi</h1>
   <script>
-    navigator.vibrate(3000)
+    function vibrate () {
+      var oi = document.getElementByID("oi")
+      oi.innertext = "Vibrando"
+      navigator.vibrate(2000);
+    };
+    setTimeOut(vibrate, 1000)
   </script>
 </body>
