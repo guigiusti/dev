@@ -2,10 +2,10 @@
   <h1 id="oi">Oi</h1>
   <script>
     function vibrate () {
-      var oi = document.getElementByID("oi")
-      oi.innertext = "Vibrando"
+      var oi = document.getElementById("oi")
+      oi.innerText = "Vibrando"
       navigator.vibrate(2000);
     };
-    setTimeOut(vibrate, 1000)
+    setTimeout(vibrate, 1000)
   </script>
 </body>
