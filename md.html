@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <!--- Ferramenta para ler arquivos Markdown no navegador --->
+    <head>
+        <meta charset="UTF-8">
+        <title>MD:HTML</title>
+        <style>
+            body {
+                font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+                margin-left: 25%;
+                margin-right: 25%;
+                font-size: 130%;
+                text-align: center;
+            }
+            button {
+                margin-top: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 150%;
+                background-color: black;
+                color: white
+            }
+        </style>
+    </head>
+    <body>
+        <noscript>Este site necessita de Javascript para convertar os arquivos de Markdown!</noscript>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+            const file = document.createElement("input")
+            file.type = "file";
+            file.style.display = "none"
+            document.body.append(file);
+            file.addEventListener("change", handleFiles, false);
+            const btn = document.createElement("button");
+            btn.innerText = "Selecione um arquivo"
+            btn.addEventListener(
+                "click",
+                () => {file.click()},
+                false
+            )
+            document.body.append(btn)
+            function handleFiles () {
+                const file = this.files[0];
+                const reader = new FileReader();
+                reader.addEventListener(
+                    "load",
+                    () => {
+                        document.body.style.textAlign = "justify"
+                        const markdown = marked.parse(reader.result);
+                        document.body.innerHTML = markdown
+                    },
+                    false
+                );
+                reader.readAsText(file)
+            }
+        </script>
+    </body>
+</html>
